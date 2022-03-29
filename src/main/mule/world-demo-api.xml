@@ -25,5 +25,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	"Key" : "Value"
 }]]]></http:query-params>
 		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="55036229-3d89-41ab-8b92-0d1d38c204ef" message="#[payload]"/>
 	</flow>
 </mule>
